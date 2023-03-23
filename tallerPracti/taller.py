@@ -52,3 +52,4 @@ class Conjunto:
     def __str__(self):
         elementos_str = ', '.join(str(elemento.nombre) for elemento in self.elementos)
         return f"Conjunto {self.nombre}: ({elementos_str})"
+    #fin
